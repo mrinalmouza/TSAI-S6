@@ -9,12 +9,12 @@ MNIST dataset contains gray scale images of size 28 * 28.
 The train data has 60000 images and test has 10000 images.
 Below is the sample data
 
-![alt text](https://github.com/mrinalmouza/TSAI_S6/blob/main/output.png "Sample Data")
+![alt text](https://github.com/mrinalmouza/TSAI-S6/blob/main/output.png "Sample Data")
 
 ## Architecture Diagram
 Architecure diagram is below:
 
-![alt text](https://github.com/mrinalmouza/TSAI_S6/blob/main/MNIST_20K_Mrinal.png "Architecure Diagram")
+![alt text](https://github.com/mrinalmouza/TSAI-S6/blob/main/MNIST_20K_Mrinal.png "Architecure Diagram")
 
 ## Requirements
 * matplotlib==3.7.1
