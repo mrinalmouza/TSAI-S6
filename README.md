@@ -3,6 +3,7 @@
 
 The model shown has 2 layers(excluding the input layer). The activation used in model is sigmoid
 
+``` python
 * Forward pass:
     >> In forward pass parameters are calculated in following way:
         h1 = i1 * w1 + i2 * w2
@@ -20,27 +21,27 @@ The model shown has 2 layers(excluding the input layer). The activation used in 
 * Backward pass:
     >> In backward pass the derivative of Etotal is calculated w.r.t to all the weights viz -a - viz (w1,w2,... w8)
         The detailed calculation and chain rule is explained in the excel sheet.
-
+```
 ## Model excel output
-![alt text](https://github.com/mrinalmouza/TSAI-S6/Images/blob/main/Output.png "LR_0_1")
+![alt text](https://github.com/mrinalmouza/TSAI-S6/blob/main/Images/Output.png "Outpur")
  
 ## Learning rate = 0.1
-![alt text](https://github.com/mrinalmouza/TSAI-S6/Images/blob/main/LR_0_1.png "LR_0_1")
+![alt text](https://github.com/mrinalmouza/TSAI-S6/blob/main/Images/LR_0_1.png "LR_0_1")
 
 ## Learning rate = 0.2
-![alt text](https://github.com/mrinalmouza/TSAI-S6/Images/blob/main/LR_0_2.png "LR_0_2")
+![alt text](https://github.com/mrinalmouza/TSAI-S6/blob/main/Images/LR_0_2.png "LR_0_2")
 
 ## Learning rate = 0.5
-![alt text](https://github.com/mrinalmouza/TSAI-S6/Images/blob/main/LR_0_5.png "LR_0_5")
+![alt text](https://github.com/mrinalmouza/TSAI-S6/blob/main/Images/LR_0_5.png "LR_0_5")
 
 ## Learning rate = 0.8
-![alt text](https://github.com/mrinalmouza/TSAI-S6/Images/blob/main/LR_0_8.png "LR_0_8")
+![alt text](https://github.com/mrinalmouza/TSAI-S6/blob/main/Images/LR_0_8.png "LR_0_8")
 
 ## Learning rate = 1.0
-![alt text](https://github.com/mrinalmouza/TSAI-S6/Images/blob/main/LR_1_0.png "LR_1_0")
+![alt text](https://github.com/mrinalmouza/TSAI-S6/blob/main/Images/LR_1_0.png "LR_1_0")
 
 ## Learning rate = 2.0
-![alt text](https://github.com/mrinalmouza/TSAI-S6/Images/blob/main/LR_2_0.png "LR_2_0")
+![alt text](https://github.com/mrinalmouza/TSAI-S6blob/main//Images/LR_2_0.png "LR_2_0")
 
 
 # PART 2
