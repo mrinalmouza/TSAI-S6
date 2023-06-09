@@ -1,3 +1,49 @@
+# Part 1
+## Model explanation:
+
+The model shown has 2 layers(excluding the input layer). The activation used in model is sigmoid
+
+* Forward pass:
+    >> In forward pass parameters are calculated in following way:
+        h1 = i1 * w1 + i2 * w2
+        h2 = i1 * w3 + i2 * w4
+        a_h1 = sigmoid(h1)
+        a_h2 = sigmoid(h2)
+        o1 = a_h1 * w5 + a_h2 * w6
+        o2 = a_h1 * w7 + a_he * w8
+        a_o1 = sigmoid(o1)
+        a_o2 = sigmoid(o2)
+        E1 = 1/2*(t1 - a_o1)^2
+        E2 = 1/2*(t2 - a_o2)^2
+        Etotal = E1 + E2
+
+* Backward pass:
+    >> In backward pass the derivative of Etotal is calculated w.r.t to all the weights viz -a - viz (w1,w2,... w8)
+        The detailed calculation and chain rule is explained in the excel sheet.
+
+## Model excel output
+![alt text](https://github.com/mrinalmouza/TSAI-S6/Images/blob/main/Output.png "LR_0_1")
+ 
+## Learning rate = 0.1
+![alt text](https://github.com/mrinalmouza/TSAI-S6/Images/blob/main/LR_0_1.png "LR_0_1")
+
+## Learning rate = 0.2
+![alt text](https://github.com/mrinalmouza/TSAI-S6/Images/blob/main/LR_0_2.png "LR_0_2")
+
+## Learning rate = 0.5
+![alt text](https://github.com/mrinalmouza/TSAI-S6/Images/blob/main/LR_0_5.png "LR_0_5")
+
+## Learning rate = 0.8
+![alt text](https://github.com/mrinalmouza/TSAI-S6/Images/blob/main/LR_0_8.png "LR_0_8")
+
+## Learning rate = 1.0
+![alt text](https://github.com/mrinalmouza/TSAI-S6/Images/blob/main/LR_1_0.png "LR_1_0")
+
+## Learning rate = 2.0
+![alt text](https://github.com/mrinalmouza/TSAI-S6/Images/blob/main/LR_2_0.png "LR_2_0")
+
+
+# PART 2
 
 # Handwritten Digit Classifier
 
